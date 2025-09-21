@@ -35,8 +35,8 @@ const FirstVideo = () => {
         videoRef.current.onloadedmetadata = ()=>{
             tl.to(videoRef.current,{
                 currentTime: videoRef.current.duration,
-                duration:3
-            })
+                duration:3,ease:'power1.inOut'
+            },'<')
         }
     },[])
   return (
