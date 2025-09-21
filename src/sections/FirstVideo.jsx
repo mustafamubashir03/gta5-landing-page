@@ -32,7 +32,7 @@ const FirstVideo = () => {
             ease:'power1.inOut'
         })
 
-        videoRef.current.onloadedmetadeta = ()=>{
+        videoRef.current.onloadedmetadata = ()=>{
             tl.to(videoRef.current,{
                 currentTime: videoRef.current.duration,
                 duration:3
