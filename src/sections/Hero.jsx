@@ -49,7 +49,7 @@ const Hero = () => {
             duration:1,
             ease:'power1.inOut',
             maskImage: 'radial-gradient(circle at 50% 0vh, black 50%, transparent 100%)' 
-        },'<')})
+        },'<')},[])
   return (
     <section className="hero-section">
         <div className="size-full mask-wrapper">
